@@ -1,0 +1,31 @@
+{
+  "name": "karthik-templates",
+  "version": "1.0.0",
+  "description": "Instantiating a new Project from the Templates",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "karthik-templates": "./index.js"
+  },
+  "author": "Karthikeyan Mariappan",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-prettier": "^3.4.1",
+    "prettier": "^2.3.2"
+  },
+  "dependencies": {
+    "inquirer": "^8.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kmariappan/karthik-templates.git"
+  }
+}
